@@ -1,17 +1,6 @@
 import styled from 'styled-components'
 
-export default function Card(props) {
-    return (
-        <CardStyled>
-            <h2>{props.title}</h2>
-            <div className="card-body">
-                {props.children}
-            </div>
-        </CardStyled>
-    )
-}
-
-const CardStyled = styled.div`
+export const CardStyled = styled.div`
     width: 20rem;
     background: #fff;
     border: 1px solid #cbd5e1;
@@ -24,4 +13,4 @@ const CardStyled = styled.div`
     .card-body {
         padding: 1rem 1.5rem 1.5rem;
     }
-`;
+`
