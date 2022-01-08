@@ -12,6 +12,7 @@ export default function Card(props) {
 }
 
 const CardStyled = styled.div`
+    width: 20rem;
     background: #fff;
     border: 1px solid #cbd5e1;
     border-radius: 0.35rem;
