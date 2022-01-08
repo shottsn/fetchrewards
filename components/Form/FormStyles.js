@@ -1,3 +1,5 @@
+// This would be much more componentized with more time. For the sake of time, I kept it all in one file and in one styled component.
+
 import styled from 'styled-components'
 
 export const FormStyled = styled.form`
@@ -72,6 +74,7 @@ export const FormStyled = styled.form`
         border-radius: 0.25rem;
         transition: all 0.15s ease;
         cursor: pointer;
+        user-select: none;
         :hover {
             background-color: #115e59;
         }

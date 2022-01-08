@@ -41,7 +41,6 @@ export default function Form({ formData }) {
             fetch('https://frontend-take-home.fetchrewards.com/form', requestOptions)
                 .then(
                     (response) => {
-                        console.log(response);
                         if (response.status === 200) {
                             setIsComplete(true)
                             setError(null)
