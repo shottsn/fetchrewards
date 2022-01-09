@@ -58,7 +58,7 @@ export default function Form({ formData }) {
     }
 
     return (
-        <FormStyled>
+        <FormStyled data-testid="form">
             {error ? <p className="form-error">{error}</p> : ''}
             {isComplete ? 
                 <p className="form-success">User successfully created! Thank you!</p> : 
